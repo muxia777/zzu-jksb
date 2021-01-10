@@ -66,7 +66,7 @@ class Log:
                 if '已经填报' in init_text:
                 # if '1' in init_text:
                     #self.fp.writelines(u"{} --> 打卡成功 -->已填报过了 无需重复填写  ^_^ \n ".format(time.strftime("%Y-%m-%d  %H : %M: %S", time.localtime())))
-                    print(u"{}  已完成上报啦 ，无需重复啦 ^_^ ".format(time.strftime("%Y-%m-%d  %H : %M: %S", time.localtime(time.time() + 8*3600))))
+                    print(u"{}  已完成上报la啦 ，无需重复la啦 ^_^ ".format(time.strftime("%Y-%m-%d  %H : %M: %S", time.localtime(time.time() + 8*3600))))
                     time.sleep(5)
                     sys.exit()
                 else:
@@ -85,7 +85,7 @@ class Log:
                     if ('感谢' in notis) or ('已经填报' in notis):
                         today = "{} --> 打卡成功 -->  ^_^\n".format(str(time.strftime(u"%Y-%m-%d  %H : %M: %S", time.localtime(time.time() + 8*3600))))
                         print(today)
-                        Wechat("打卡成功",today)
+                        Wechat("打卡成功lala 琪琪爱你吖",today)
                         #self.fp.writelines(today)
                         time.sleep(3)
                     else:
